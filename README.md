@@ -131,7 +131,7 @@ LEFT JOIN
 WHERE b.rhof_1 is null OR a.rhof_1>b.rhof_1
 ```
 
-The SQL query returns a list of `x`-`y` coordinates showing all locations the fire has reached at timestep *i*—identified as places where the dry fuel level (`rhof_1`) has decreased (`a.rhof_1 > b.rhof_1`). To compute this, we join two tables: one from timestep *i* and one from timestep *i+1*. For each timestep *i*, we filter out points with no fuel by selecting only rows where `rhof_1 > 1e-06`.
+The SQL query returns a list of `x`-`y` coordinates showing all locations the fire has reached at timestep *i*, identified as places where the dry fuel level (`rhof_1`) has decreased (`a.rhof_1 > b.rhof_1`). To compute this, we join two tables—one from timestep *i* and one from timestep *i+1*—and compare their respective `rhof_1` values. For both timesteps, we filter out points with no fuel by selecting only rows where `rhof_1 > 1e-06`.
 
 **Note:** This SQL query can naturally be broken down into two subqueries—one for each timestep—followed by a left outer join. In a multilevel computational storage environment, the two subqueries could be pushed down to the lowest tier, with the join performed at an intermediate level. In this dataset, each subquery filters out roughly 90% of the data, while the join and post-join condition (`a.rhof_1 > b.rhof_1`) yield a final selectivity of about 0.001%.
 
