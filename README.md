@@ -135,10 +135,12 @@ The SQL query returns a list of `x`-`y` coordinates showing all locations the fi
 
 **Note:** This SQL query can naturally be broken down into two subqueries—one for each timestep—followed by a left outer join. In a multilevel computational storage environment, the two subqueries could be pushed down to the lowest tier, with the join performed at an intermediate level. In this dataset, each subquery filters out roughly 90% of the data, while the join and post-join condition (`a.rhof_1 > b.rhof_1`) yield a final selectivity of about 0.001%.
 
+The above SQL is written using the DuckDB syntax.
+
 # Sample Result
 
 The following plot shows how the fire spreads over time, based on results from running the above queries across all timesteps.
 
-<img src="fire_spread.jpeg" width="50%">
+<img src="fire_spread.jpeg" width="75%">
 
 # Ack
