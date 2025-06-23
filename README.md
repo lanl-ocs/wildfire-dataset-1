@@ -137,5 +137,8 @@ The SQL query returns a list of `x`-`y` coordinates showing all locations the fi
 
 # Sample Result
 
+The following plot shows how the fire spreads over time, based on results from running the above queries across all timesteps.
+
+<img src="fire_spread.jpeg" width="50%">
 
 # Ack
