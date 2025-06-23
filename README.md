@@ -73,32 +73,7 @@ x       FLOAT     _   _     3050000   4.00 B     0       "-498.0" / "700.0"
 y       FLOAT     _   _     3050000   4.00 B     0       "-500.0" / "498.0"
 z       FLOAT     _   _     3050000   4.00 B     0       "19.94993" / "239.64423"
 
-Row group 2:  count: 3050000  20.00 B records  start: 122000264  total(compressed): 58.174 MB total(uncompressed):58.174 MB 
---------------------------------------------------------------------------------
-        type      encodings count     avg size   nulls   min / max
-rowid   INT32     _   _     3050000   4.00 B     0       "6100000" / "9149999"
-rhof_1  FLOAT     _   _     3050000   4.00 B     0       "-0.0" / "0.0"
-x       FLOAT     _   _     3050000   4.00 B     0       "-498.0" / "700.0"
-y       FLOAT     _   _     3050000   4.00 B     0       "-500.0" / "498.0"
-z       FLOAT     _   _     3050000   4.00 B     0       "62.006165" / "308.27396"
-
-Row group 3:  count: 3050000  20.00 B records  start: 183000394  total(compressed): 58.174 MB total(uncompressed):58.174 MB 
---------------------------------------------------------------------------------
-        type      encodings count     avg size   nulls   min / max
-rowid   INT32     _   _     3050000   4.00 B     0       "9150000" / "12199999"
-rhof_1  FLOAT     _   _     3050000   4.00 B     0       "-0.0" / "0.0"
-x       FLOAT     _   _     3050000   4.00 B     0       "-498.0" / "700.0"
-y       FLOAT     _   _     3050000   4.00 B     0       "-500.0" / "498.0"
-z       FLOAT     _   _     3050000   4.00 B     0       "148.6875" / "429.47055"
-
-Row group 4:  count: 3050000  20.00 B records  start: 244000524  total(compressed): 58.174 MB total(uncompressed):58.174 MB 
---------------------------------------------------------------------------------
-        type      encodings count     avg size   nulls   min / max
-rowid   INT32     _   _     3050000   4.00 B     0       "12200000" / "15249999"
-rhof_1  FLOAT     _   _     3050000   4.00 B     0       "-0.0" / "0.0"
-x       FLOAT     _   _     3050000   4.00 B     0       "-498.0" / "700.0"
-y       FLOAT     _   _     3050000   4.00 B     0       "-500.0" / "498.0"
-z       FLOAT     _   _     3050000   4.00 B     0       "301.76227" / "620.469"
+...
 
 Row group 5:  count: 3050000  20.00 B records  start: 305000654  total(compressed): 58.174 MB total(uncompressed):58.174 MB 
 --------------------------------------------------------------------------------
