@@ -114,7 +114,7 @@ The above SQL is written using the DuckDB syntax.
 
 # Sample Result
 
-The following plot shows how the fire spreads over time, based on results from running the above queries across all timesteps.
+Here’s a plot based on results from running the above query across all timesteps. It shows how the file spreads over time, by plotting the x-y's returned from each SQL query using colors that match their corresponding timesteps.
 
 <img src="fire_spread.jpeg" width="75%">
 
