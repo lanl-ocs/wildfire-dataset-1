@@ -145,9 +145,13 @@ The following plot shows how the fire spreads over time, based on results from r
 
 # Acknowledgement
 
-Wildfire behavior is a result of complex nonlinear interactions between a variety of physical processes and chemical reactions. Understanding the coupling between these components and the ways in which their interactions are influenced by their surrounding environment (e.g. winds, fuels, and topography) is a challenging undertaking. Check this [report](report.pdf) for more information about this dataset and this [paper](https://doi.org/10.1109/MCG.2023.3310298) for the specific analysis we used for this sample dataset.
+Wildfire behavior is a result of complex nonlinear interactions between a variety of physical processes and chemical reactions. Understanding the coupling between these components and the ways in which their interactions are influenced by their surrounding environment (e.g. winds, fuels, and topography) is a challenging undertaking. Check this [report](report.pdf) for more information about this dataset and this [paper](https://doi.org/10.1109/MCG.2023.3310298) for the specific analysis we used for this sample dataset[1].
 
 [DuckDB](https://duckdb.org/) is an open source high-performance analytical database system.
 
 This sample dataset is prepared by an employee of Triad National Security, LLC which operates Los Alamos National Laboratory for the U.S. Department of Energy/National Nuclear Security Administration.
+
+**Reference**:
+
+[1] Gabriel Borrelli, Lars Hagemann, Jannik Steinkühler, Adrian Derstroff, Marina Evers, Karim Huesmann, Simon Leistikow, Hennes Rave, Reyhaneh Sabbagh Gol, and Lars Linsen. 2024. 2022 IEEE Scientific Visualization Contest Winner: Multifield Analysis of Vorticity-Driven Lateral Spread in Wildfire Ensembles. IEEE Comput. Graph. Appl. 44, 1 (Jan.-Feb. 2024), 40–49
 
